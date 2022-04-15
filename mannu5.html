@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Web Design</title>
+     <style>
+         *{
+    margin:0px;
+    padding:0px;
+    text-transform: capitalize;
+    color:black;
+    background-color: rgb(13, 222, 241);
+}
+header{
+    width:100%;
+   display:flex;
+    height:15vh;
+    position:relative;
+
+    
+}
+header::before{
+    content:"";
+    
+    background-color:white;
+    position:absolute;
+    top:0px;
+    left:0px;
+    width:100%;
+    height: 10vh;
+    opacity:0.4;
+    z-index:-1;
+    
+    
+    
+    
+    
+
+}
+#logo{
+  width:35%;
+  
+}
+.logoh2{
+    
+    width:50%;
+    text-align:center;
+    margin:auto;
+    padding-top:15px;
+}
+#navbar{
+  width:60%;
+ 
+}
+ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+li{
+    display:block;
+    margin:5px 5px;;
+
+}
+a{
+    display:block;
+    padding:5px;
+    text-decoration:none;
+}
+
+#nav-button{
+ border-radius: 50%;
+ 
+}
+
+
+
+.part {
+    float: left;
+    width: 50%;
+  }
+  
+  
+  .section:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+.forms{
+    width:100%;
+}
+  .forms{
+      padding-left: 60px;
+  }
+  
+
+  img{
+      width:500px;
+      height:400px;
+      z-index: 1;
+  }
+  .section{
+      margin-top: 20px;
+  }
+  input[type=submit] {
+  background-color: #04AA6D;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: white;
+  padding: 12px 32px;
+  text-decoration: none;
+  margin: 4px 20px;
+  cursor: pointer;
+}
+     </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <h2 class="logoh2">Be- Novative</h2>
+        </div>
+        <div id="navbar">
+            <ul>
+                <li class="list items"><a href="#">Platform</a></li>
+                <li class="list items"><a href="#">Customers</a></li>
+                <li class="list items"><a href="#">Support</a></li>
+                <li class="list items"><a href="#">About us</a></li>
+                <li class="list items"><a href="#">blog</a></li>
+                <button class="nav-button" style="background-color: rgb(111, 111, 199);"><li class="list items"><a href="https://www.linkedin.com/in/mannu-raj-0a00931b9/">contact Us</a></li></button>
+            </ul>
+        </div>
+    </header>
+    <div class="section">
+        <div class="left part">
+            <div class="forms">
+                <h1>Schedule your</h1>
+                <h1>Personal Demo</h1>
+                <br>
+                <br>
+
+                <form>
+                    <label for="fname">first name</label><br>
+                    <input type="text" id="firstname" name="firstname" placeholder="first name"><br><br>
+                    <label for="lname">Last name</label><br>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last name"><br><br>
+                    <label for="email">Email</label><br>
+                     <input type="email" id="email" name="email" placeholder="mannu317@gmail.com"><br><br>
+                     <label for="phone">Phone number</label><br>
+                     <input type="tel" id="phone" name="phone" patte
+                     rn="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="9191919191"> <br> <br>   
+                     <input type="submit" style="background-color: green;">   
+                  </form>
+                </div>
+        </div>
+        <div class="right part">
+            <img src="image.jpg">
+        </div>
+      </div>
+</body>
+
