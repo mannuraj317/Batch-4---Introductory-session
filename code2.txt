@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+</html>
+    <head>
+        <style>table,th,td
+        {
+            border: 4px solid;
+            border-collapse:collapse ;
+        }
+        tr:nth-child(odd)
+        {
+            background-color: rgb(98, 98, 235);
+        }
+        img{
+            float:right;
+        }
+        
+        body{
+            background-color:rgb(79, 84, 78);
+            background-image: 27.jpg;
+        }
+        </style>
+        <title>Resume
+        </title>
+    </head>
+    <body>
+      
+
+        
+           
+         <marquee direction="left"><b><h1 style="color: rgb(241, 240, 244);">This is my Resume</h1></b></marquee>
+       
+        <h1>MANNU RAJ</h1>
+        <img src="profile.jpg" alt="profile" width="180" height="250">
+       
+        <h3>ADDRESS</h3>
+        <p>Barauni,Bihar</p>
+        <h3>Contact</h3>
+        <p>8789204245</p>
+        <button type="button" onclick='document.getElementById("demo").innerHTML="linkendin"'>linkedin</button>
+        <p id="demo"></p>
+        <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_nav-header-signin"> 
+            <font color="blue">LinkedIn profile</font></a>
+        <h3>E-mail</h3>
+        
+        <a href="https://www.google.com">mannuraj317@gmail.com</a>
+        <h3>CAREER OBJECTIVE</h3>
+        <P>Seeking new challenges,looking to join progressive organisation that has need and offer opportunities for advacement.
+            <br>Seeking a position where I can serve with my utmost capabilities and where 
+            I can give full play to my creativity to excel within and to grow with institute.
+            
+        </P>
+        <h3>
+            EDUCATION QUALIFICATION
+        </h3>
+        <table style "width=50%">
+            <tr>
+                <th>Course</th>
+                <th>University/Board</th>
+                <th>Year</th>
+                <th>Aggregate</th>
+                <td></td>
+            </tr>
+            <tr>
+                <td>10th</td>
+                <td>C.B.S.E</td>
+                <td>2014-2015</td>
+                <td>8.4 cgpa</td>
+            </tr>
+            <tr>
+                <td>12th</td>
+                <td>C.B.S.E</td>
+                <td>2017-2018</td>
+                <td>68%</td>
+            </tr>
+            <tr>
+                <td>B.Tech</td>
+                <td>MAKAUT</td>
+                <td>2018-2022</td>
+                <td>8.2cgpa</td>
+            </tr>
+            </table>
+
+            <h3>TECHNICAL SKILLS</h3>
+            <ol>
+            <li>JAVA</li>
+            <li>C</li>
+            <LI>DBMS</LI>
+            <LI>HTML</LI>
+            </ol>
+            <h3>CERTIFICATION</h3>
+            <ul>
+            <li>Soft Skill Through NPTEL</li>
+            <li>Java Completion Through ardent</li>
+            </ul>
+            <h3>STRENGTH</h3>
+            <li>LEADERSHIP</li>
+            <LI>SELF-MOTIVATED</LI>
+            <LI>TEAM WORK</LI>
+            <h3>HOBBIES</h3>
+            <li>playing Cricket</li>
+            <li>watching Movies</li>
+            <li>Reading Books</li>
+                    
+      
+</body>
+</html>
